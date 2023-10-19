@@ -170,7 +170,7 @@ line-height:25px;
     background-color:#ee1515 ;
     text-decoration: none;
     padding: 12px;
-    border-radius: 25px;
+    border-radius: 15px;
     color: azure;
     font-family: karantina;
     font-weight: 400;
@@ -207,7 +207,7 @@ line-height:25px;
     background-color: #d9d9d9 ;
     text-decoration: none;
     padding: 12px;
-    border-radius: 25px;
+    border-radius: 15px;
     color:rgb(20, 20, 21);
     font-family: karantina;
     font-weight: 500;
@@ -502,7 +502,23 @@ height:450px ;
     display: flex;
     justify-content:space-around;
     align-items: center;
+}
 
+/* Programs */
+
+.proframs-img{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.proframs-img div h3{
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    color: azure;
+    font-size: 80px;
+    font-family: karantina;
+    font-weight: 400;
 }
 
 
