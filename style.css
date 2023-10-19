@@ -52,7 +52,7 @@ nav{
     
 }
 .A{
-    color: rgb(234, 230, 230);
+    color: azure;
     font-size: 130px;
     font-family: karantina;
     margin: 0 25px;
@@ -60,7 +60,7 @@ nav{
 }
 .C{
     font-size: 90px;
-    color: rgb(234, 230, 230);
+    color: azure;
     font-family: karantina;
     font-weight: 400;
     font-size: 170px;
@@ -389,6 +389,11 @@ justify-content: center;
 ul{
     list-style: none;
 }
+i{
+    font-size: 35px;
+    padding: 2px 10px 0 0;
+    cursor: pointer;
+}
 .map{
 width: 100%;
 height: 500px;
@@ -401,7 +406,69 @@ iframe{
     border-radius: 20px;
 }
 
+/* Registration */
 
+.form-card{
+    width: 40%;
+    height: 430px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px 2px;
+    display: flex;
+    justify-content: center;
+}
+.form-text h3{
+    font-family: 'Koulen', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+.form-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+form{
+    text-align: center;
+}
+.form-group{
+    padding: 5px;
+}
+input{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(204, 210, 210);
+}
+.form-group-btn a { 
+    background-color: rgb(204, 210, 210);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(27, 26, 26);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.form-group-btn{
+    margin-top: 15px;
+}
+.form-group-btn a:hover{
+    background-color: rgb(76, 83, 83);
+}
+.img-contact img{
+width: 800px;
+height:450px ;
+}
+.contact-position{
+    height: 80vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
 
 
 
