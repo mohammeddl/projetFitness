@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Gabarito:wght@500;600;700;800;900&family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&family=Karantina:wght@300;400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;500;600&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:azure;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:azure;
+    width: 100%;
+}
+
+.logo{
+    width: 90px;
+    height: 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(26, 25, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+}
+.imgback{
+    height: 90vh;
+    background: url(img/home.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.F{
+    font-size: 170px;
+    color: rgb(224, 12, 12);
+    font-family: karantina;
+    font-weight: 400;
+    
+}
+.A{
+    color: rgb(234, 230, 230);
+    font-size: 130px;
+    font-family: karantina;
+    margin: 0 25px;
+    font-weight: 400;
+}
+.C{
+    font-size: 90px;
+    color: rgb(234, 230, 230);
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 170px;
+    letter-spacing: 2px;
+}
+.btn-learn{
+    background-color: rgb(224, 12, 12);
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Koulen', sans-serif;
+    letter-spacing: 3px;
+}
+.home-position{
+    width: 50%;
+    margin: 0 13%;
+    line-height: 120px;
+    position: absolute;
+    margin-top: 70px;
+}
+.img-about{
+    height: 600px;
+    width: 740px;
+    border-radius: 3px;
+}
+.text-about{
+    background-color: rgb(23, 22, 22);
+    width: 740px;
+    height: 600px;
+    padding: 50px;
+    font-size: 35px;
+    border-radius: 3px;
+    color: aliceblue;
+    line-height: 60px;
+}
+.about-position{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-ships{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: karantina;
+    letter-spacing: 2px;
+    color: rgb(23, 22, 22);
+}
+
+.card-ships{
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 40px;
+    width: 400px;
+    height: 370px;
+}
+.card-value{
+    display: flex;
+    justify-content: space-between;
+}
+.card-value h3{
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 38px;
+}
+.card-value h5{
+    background-color:#ee1515;
+    color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.price h4{
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 38px;
+}
+.price p {
+line-height:25px;
+}
+.price a{
+    background-color:#ee1515 ;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 25px;
+    color: azure;
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+.btn-join{
+    margin-top: 30px;
+}
+
+.card-ships2{
+    background-color: rgb(20, 20, 21);
+    border-radius: 40px;
+    padding: 40px;
+    width: 400px;
+    height: 370px;
+    color: azure;
+}
+.price2 h3{
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 38px;
+}
+.price2 h4{
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 38px;
+}
+.price2 p {
+    line-height:25px;
+}
+.price2 a{
+    background-color: #d9d9d9 ;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 25px;
+    color:rgb(20, 20, 21);
+    font-family: karantina;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 2px;
+    
+}
+.btn-join2{
+    margin-top: 30px;
+}
+.card-price{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn-more a{
+    background-color: rgb(20, 20, 21);
+    color: azure;
+    padding: 0 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'Koulen', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+.btn-more{
+    text-align: center;
+    margin-top: 30px;
+}
+.img-client{
+    background: url(img/bckgroundclient.png);
+    background-position:center;
+    background-size:cover ;
+    height: 589px;
+    margin-top: 30px;
+
+}
+
+/* Gallery */
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+img{
+    width: 360px;
+    height:350px;
+    border-radius: 10px;
+}
+
+.img2{
+    grid-column: span 2;
+    width: 600px;
+    margin: auto;
+}
+
+.img5{
+    grid-column: span 2;
+    width: 600px;
+    margin: auto;
+}
+.btn-regi{
+    background-color: rgb(194, 192, 191);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(21, 22, 22);
+    font-size: 25px;
+}
+.btn-re{
+    margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+/* footer */
+
+#contact{
+    background-color: rgb(14, 14, 14);
+    margin-top: 20px;
+}
+.main{
+	display: flex;
+	justify-content: space-evenly;
+}
+.list{
+	width:20%;
+    padding: 20px;
+}
+.list h4{
+	font-size: 25px;
+	color: aliceblue;
+	margin-bottom: 20px;
+}
+.list ul li a{
+	color: #ffffffbf;
+	font-size: 15px;
+	transition: .3s;
+    text-decoration: none;
+}
+.list ul li a:hover{
+	color: rgb(118, 122, 122);
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
