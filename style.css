@@ -30,6 +30,7 @@ nav{
     justify-content: space-between;
     width: 40%;
 }
+
 .navbar a{
     text-decoration: none;
     font-size: 28px;
@@ -37,6 +38,7 @@ nav{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400px;
 }
+
 .imgback{
     height: 90vh;
     background: url(img/home.png);
@@ -65,6 +67,9 @@ nav{
     font-weight: 400;
     font-size: 170px;
     letter-spacing: 2px;
+}
+.colorPro{
+    background-color: #ee1515;
 }
 .btn-learn{
     background-color: rgb(224, 12, 12);
@@ -316,6 +321,36 @@ line-height:25px;
 .card-client p{
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.24);
+}
+.faq-question {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.faq-answer {
+    margin-top: 10px;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(28, 28, 28);
+}
+.faq h2{
+    text-align: center;
+    font-family: karantina;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+.faq{
+    display: flex;
+    justify-content: center;
 }
 /* Gallery */
 
