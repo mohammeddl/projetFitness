@@ -547,7 +547,7 @@ height:450px ;
         font-size: 18px;
     }
     .imgback{
-        height: 70vh;
+        height: 75vh;
         background-position: center;
         background-size: cover;
     }
@@ -608,7 +608,7 @@ height:450px ;
         height: 800px;
     }
     .card-img{
-        height: 370px;
+        height: 670px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -630,35 +630,52 @@ height:450px ;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    .card1.card2.card3.card4{
-        font-size: 40px;
-        color: #ee1515;
+    .card1,.card2,.card3,.card4{
+        font-size: 15px;
         width: 200px;
         text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
     }
-    .card1 div{
-        color: azure;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+    .card1 div,.card2 div,.card3 div,.card4 div{
+        font-size: 10px;
     }
-    
-    .card2 div{
-        color: azure;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+    .card-position{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
-    
-    .card3 div{
-        color: azure;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+    /* footer */
+    .main{
+        display: flex;
+        justify-content: space-evenly;
     }
-    
-    .card4 div{
-        color: azure;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+    .list{
+        width: 20%;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .list h4{
+        font-size: 15px;
+        color: aliceblue;
+        margin-bottom: 5px;
+    }
+    .list ul li a{
+        color: #ffffffbf;
+        font-size: 10px;
+        transition: .3s;
+        text-decoration: none;
+    }
+    .list ul li a:hover{
+        color: rgb(118, 122, 122);
+    }
+    ul{
+        list-style: none;
+    }
+    i{
+        font-size: 22px;
+        padding: 0;
+        cursor: pointer;
     }
 }
 
