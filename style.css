@@ -47,7 +47,7 @@ nav{
     position: relative;
 }
 .F{
-    font-size: 170px;
+    font-size: 10rem;
     color: rgb(224, 12, 12);
     font-family: karantina;
     font-weight: 400;
@@ -55,13 +55,13 @@ nav{
 }
 .A{
     color: azure;
-    font-size: 130px;
+    font-size: 8rem;
     font-family: karantina;
     margin: 0 25px;
     font-weight: 400;
 }
 .C{
-    font-size: 90px;
+    font-size: 5rem;
     color: azure;
     font-family: karantina;
     font-weight: 400;
@@ -69,7 +69,10 @@ nav{
     letter-spacing: 2px;
 }
 .colorPro{
-    background-color: #ee1515;
+    color: #ee1515 !important;
+}
+.colorGA{
+color: #ee1515 !important;
 }
 .btn-learn{
     background-color: rgb(224, 12, 12);
@@ -319,7 +322,7 @@ line-height:25px;
     border-radius: 20px;
 }
 .card-client p{
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -519,6 +522,144 @@ height:450px ;
     font-size: 80px;
     font-family: karantina;
     font-weight: 400;
+}
+
+
+@media (max-width: 767px){
+    .home-position{
+        width: 60%;
+        margin: 0 13%;
+        line-height: 90px;
+        position: absolute;
+        margin-top: 70px;
+    }
+    .F{
+        font-size: 6rem;
+    }
+    .A{
+        font-size: 5rem;
+    }
+    .C{
+        font-size: 6rem;
+    }
+    .btn-learn{
+        padding: 7px 10px;
+        font-size: 18px;
+    }
+    .imgback{
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .img-about{
+        height: 200px;
+        width: 220px;
+    }
+    .text-about{
+    width: 740px;
+    height: 200px;
+    border-radius: 3px;
+    line-height: 12px;
+    
+    }
+    .text-about p{
+    font-size: 10px;
+    padding: 0 20px;
+    }
+    .text-about h2{
+    font-weight: 400;
+    font-size: 25px;
+    padding: 15px 20px;
+    }
+    .text-ships h2{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    .text-ships p{
+    font-size: 15px;
+    line-height: 15px;
+    }
+    .text-ships{
+        line-height: 22px;
+    }
+    .card-price{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-ships{
+        padding: 30px;
+        width: 340px;
+        height: 340px;
+        margin-bottom: 10px;
+    }
+    .card-ships2{
+        padding: 30px;
+        width: 340px;
+        height: 340px;
+    }
+    .btn-more a{
+        font-size: 22px;
+    }
+    .img-client{
+        background: url(img/backgr2.png);
+        height: 800px;
+    }
+    .card-img{
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-img img{
+        height: 50px;
+        width: 50px;
+    }
+    .card-client{
+        background-color:azure ;
+        height: 200px;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .card-client p{
+        margin-bottom: 1rem;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .card1.card2.card3.card4{
+        font-size: 40px;
+        color: #ee1515;
+        width: 200px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .card1 div{
+        color: azure;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .card2 div{
+        color: azure;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .card3 div{
+        color: azure;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .card4 div{
+        color: azure;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 
 
