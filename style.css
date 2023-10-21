@@ -111,7 +111,7 @@ color: #ee1515 !important;
 }
 .text-about{
     background-color: rgb(23, 22, 22);
-    width: 100%;
+    width: 50%;
     height: 600px;
     border-radius: 3px;
     line-height: 50px;
@@ -120,7 +120,6 @@ color: #ee1515 !important;
 .text-about p{
 color: aliceblue;
 font-family: Arial, Helvetica, sans-serif;
-/* font-size: 25px; */
 font-size: clamp(16px,4vw,25px);
 padding: 0 50px;
 position: absolute;
@@ -564,7 +563,7 @@ height: 450px ;
         height: 120vh;
     } 
     
-    }
+    
     .navbar li{
         width: 200px;
         height: 100px;
@@ -599,10 +598,10 @@ height: 450px ;
     }
     .img-about{
         height: 250px;
-        width: 50%px;
+        width: 50%;
     }
     .text-about{
-    width: 740px;
+    width: 50%;
     height: 250px;
     border-radius: 3px;
     line-height: 25px;
@@ -703,13 +702,13 @@ height: 450px ;
         margin-top: 10px;
     }
     .list h4{
-        font-size: 15px;
+        font-size: 27px;
         color: aliceblue;
         margin-bottom: 5px;
     }
     .list ul li a{
         color: #ffffffbf;
-        font-size: 10px;
+        font-size: 15px;
         transition: .3s;
         text-decoration: none;
     }
@@ -718,11 +717,15 @@ height: 450px ;
     }
     ul{
         list-style: none;
+        margin-bottom: 5px;
     }
     i{
-        font-size: 22px;
+        font-size: 30px;
         padding: 0;
         cursor: pointer;
+    }
+    .list-none{
+        display: none;
     }
 }
 

@@ -12,7 +12,7 @@ const questions = document.querySelectorAll('.faq-question');
 
         
         const burgerMenu = document.querySelector('.burger-menu');
-        const navbar = document.querySelector('.navbar'); // Assuming your navigation links are in a class called 'navbar'
+        const navbar = document.querySelector('.navbar'); 
     
         burgerMenu.addEventListener('click', () => {
             navbar.classList.toggle('active');
