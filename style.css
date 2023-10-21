@@ -374,6 +374,12 @@ line-height:25px;
     display: flex;
     justify-content: center;
 }
+.faq-question{
+    font-size: 15px;
+}
+.faq-item{
+    font-size: 12px;
+}
 /* Gallery */
 
 .imgs{
