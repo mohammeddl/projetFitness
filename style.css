@@ -20,6 +20,32 @@ nav{
     width: 100%;
 }
 
+.burger-menu {
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #1d1c1c;
+    margin: 9px;
+}
+
+.navbar.active {
+    display: block; 
+    position: absolute;
+    top: 0; 
+    right: 0;
+    background: #b31111; 
+    width: 200px; 
+    padding: 20px;
+    z-index: 1; 
+    width: 270px;
+    height: 120vh;
+}
+
 .logo{
     width: 90px;
     height: 70px;
@@ -98,7 +124,7 @@ color: #ee1515 !important;
 }
 .text-about{
     background-color: rgb(23, 22, 22);
-    width: 740px;
+    width: 100%;
     height: 600px;
     border-radius: 3px;
     line-height: 50px;
@@ -107,7 +133,8 @@ color: #ee1515 !important;
 .text-about p{
 color: aliceblue;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
+/* font-size: 25px; */
+font-size: clamp(16px,4vw,25px);
 padding: 0 50px;
 position: absolute;
 }
@@ -498,7 +525,7 @@ input{
 }
 .img-contact img{
 width: 800px;
-height:450px ;
+height: 450px ;
 }
 .contact-position{
     height: 80vh;
@@ -526,6 +553,18 @@ height:450px ;
 
 
 @media (max-width: 767px){
+    
+    .burger-menu {
+        display: block;
+    }
+    .navbar {
+        display: none; 
+    }
+    .bar-menu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }    
     .home-position{
         width: 60%;
         margin: 0 13%;
