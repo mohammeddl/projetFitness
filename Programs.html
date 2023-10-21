@@ -20,12 +20,21 @@
 <body>
     <header>
         <nav>
-            <div><img src="img/logo.png" alt="img" class="logo"></div>
+            
+            <div class="bar-menu">
+                <img src="img/logo.png" alt="img" class="logo">
+                <div class="burger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>                
+            </div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Programs.html" class="colorPro">Programs</a></li>
+                <li><a href="Programs.html">Programs</a></li>
                 <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="Registration.html">Registration</a></li>
+                <li><a class="navRe" href="Registration.html">Registration</a></li>
+                <button class="colse" onclick="toggleNav()">X</button>
             </ul>
         </nav>
     </header>
@@ -46,7 +55,7 @@
     <div class="text-ships">
         <h2>MEMBERSHIPS</h2>
     </div>
-    <section class="card-price">
+    <section class="card-price card-price-position">
         <div class="card-ships2">
             <div class="price2">
                 <h3>Classic</h3>
@@ -55,10 +64,10 @@
                 <p>PLUs taxes and fees</p>
                 <p>Our standard membership, with <br>unlimited access to your home <br>home
                 </p>
-                <div class="btn-join2"><a href="#">JOIN NOW</a></div>
+                <div class="btn-join2"><a href="Registration.html">JOIN NOW</a></div>
             </div>
         </div>
-        <div class="card-ships2">
+        <div class="card-ships2 ">
             <div class="price2">
                 <h3>Classic</h3>
                 <p>Starting at</p>
@@ -66,7 +75,7 @@
                 <p>PLUs taxes and fees</p>
                 <p>Our standard membership, with <br>unlimited access to your home <br>home
                 </p>
-                <div class="btn-join2"><a href="#">JOIN NOW</a></div>
+                <div class="btn-join2"><a href="Registration.html">JOIN NOW</a></div>
             </div>
         </div>
         <div class="card-ships2">
@@ -77,15 +86,16 @@
                 <p>PLUs taxes and fees</p>
                 <p>Our standard membership, with <br>unlimited access to your home <br>home
                 </p>
-                <div class="btn-join2"><a href="#">JOIN NOW</a></div>
+                <div class="btn-join2"><a href="Registration.html">JOIN NOW</a></div>
             </div>
         </div>
     </section>
+    <script src="js/script.js"></script>
     <!--footer--->
     <footer id="contact">
         <div class="footer">
             <div class="main">
-                <div class="list">
+                <div class="list list-none">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>

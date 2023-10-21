@@ -25,11 +25,12 @@ nav{
     cursor: pointer;
 }
 
+
 .bar {
     width: 50px;
-    height: 10px;
+    height: 8px;
     border-radius: 10px;
-    background-color: #1c1c1d;
+    background-color: #282828;
     margin: 9px;
 }
 
@@ -43,7 +44,12 @@ nav{
     justify-content: space-between;
     width: 40%;
 }
-
+.colse{
+    display: none;
+    background-color: #282828;
+    font-size: 20px;
+    color: azure;
+}
 .navbar a{
     text-decoration: none;
     font-size: 28px;
@@ -539,7 +545,9 @@ height: 450px ;
 
 
 @media (max-width: 767px){
-    
+    .logo{
+        padding: 5px;
+    }
     .burger-menu {
         display: block;
     }
@@ -553,24 +561,28 @@ height: 450px ;
     } 
     .navbar.active {
         display: block; 
-        position: absolute;
+        position: fixed;
         top: 0; 
         right: 0;
         background: #cf1414; 
         padding: 20px;
         z-index: 1; 
-        width: 270px;
+        width: 220px;
         height: 120vh;
     } 
-    
-    
     .navbar li{
         width: 200px;
         height: 100px;
         font-size: 4rem;
         text-align: center;
     }
-    
+    .colse{
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        padding: 3px 3px;
+    }
     .home-position{
         width: 60%;
         margin: 0 13%;
@@ -691,6 +703,13 @@ height: 450px ;
         justify-content: space-evenly;
         align-items: center;
     }
+    .faq-question{
+        font-size: 15px;
+    }
+    .faq-item{
+        font-size: 12px;
+    }
+    
     /* footer */
     .main{
         display: flex;
@@ -702,9 +721,10 @@ height: 450px ;
         margin-top: 10px;
     }
     .list h4{
-        font-size: 27px;
+        font-size: 25px;
         color: aliceblue;
         margin-bottom: 5px;
+        
     }
     .list ul li a{
         color: #ffffffbf;
@@ -726,6 +746,98 @@ height: 450px ;
     }
     .list-none{
         display: none;
+    }
+    .proframs-img{
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .card-price-position{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* gallery */
+
+    .imgs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 10px;
+        margin-top: 30px;
+    }
+    
+    .img1{
+        width: 280px;
+        height: 300px;
+        margin: auto;
+        order: -1;
+    }
+    
+    .img2{
+        grid-column: span 2;
+        width: 630px;
+        height: 320px;
+        margin: auto;
+    }
+    .img4{
+        width: 280px;
+        height: 300px;
+        margin: auto;
+    }
+    .img3{
+        width: 280px;
+        height: 300px;
+        order: -1;
+        margin: auto;
+    }
+    .img5{
+        grid-column: span 1;
+        width: 280px;
+        height: 300px;
+        margin: auto;
+    }
+    .img6{
+        grid-column: span 2;
+        width: 630px;
+        height: 320px;
+        margin: auto;
+    }
+    .btn-regi{
+        background-color: rgb(18, 17, 17);
+        padding: 15px;
+        border-radius: 10px;
+        color: rgb(233, 237, 237);
+        font-size: 20px;
+        font-family: karantina;
+    }
+    
+    /* Registration */
+
+    .contact-position{
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-card{
+        width: 50%;
+    }
+    .img-contact img{
+        width: 750px;
+        }
+    input{
+        width: 250px;
+        height: 45px;
+    }
+    .form-group-btn a { 
+        font-family: karantina;
+        font-size: 25px;
+        letter-spacing: 1px;
     }
 }
 

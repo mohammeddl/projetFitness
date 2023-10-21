@@ -10,12 +10,13 @@ const questions = document.querySelectorAll('.faq-question');
             });
         });
 
-        
+        function toggleNav(){
+            navbar.classList.toggle('active');
+        }
         const burgerMenu = document.querySelector('.burger-menu');
         const navbar = document.querySelector('.navbar'); 
     
-        burgerMenu.addEventListener('click', () => {
-            navbar.classList.toggle('active');
-        });
+        burgerMenu.addEventListener('click',toggleNav);
+        
     
     

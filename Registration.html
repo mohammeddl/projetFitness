@@ -20,12 +20,21 @@
 <body>
     <header>
         <nav>
-            <div><img src="img/logo.png" alt="img" class="logo"></div>
+            
+            <div class="bar-menu">
+                <img src="img/logo.png" alt="img" class="logo">
+                <div class="burger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>                
+            </div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Programs.html">Programs</a></li>
                 <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="Registration.html">Registration</a></li>
+                <li><a class="navRe" href="Registration.html">Registration</a></li>
+                <button class="colse" onclick="toggleNav()">X</button>
             </ul>
         </nav>
     </header>
@@ -39,16 +48,17 @@
                 <div class="form-group"><input type="email" placeholder="Email"></div>
                 <div class="form-group"><input type="cin" placeholder="CIN"></div>
                 <div class="form-group"><input type="phone" placeholder="Phone"></div>
-                <div class="form-group-btn"><a href="">Reserver</a></div>
+                <div class="form-group-btn"><a href="">reserver</a></div>
             </form></div>
         </div>
         <div class="img-contact"><img src="img/contact.png" alt="img"></div>
     </section>
+    <script src="js/script.js"></script>
     <!--footer--->
     <footer id="contact">
         <div class="footer">
             <div class="main">
-                <div class="list">
+                <div class="list list-none">
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
