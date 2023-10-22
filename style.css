@@ -142,6 +142,11 @@ color: #ee1515 !important;
     font-size: 25px;
     font-family: 'Koulen', sans-serif;
     letter-spacing: 3px;
+    transition: all .5s ease;
+}
+.btn-learn:hover{
+    color: #001F3F;
+    background-color: #fff;
 }
 .home-position{
     width: 50%;
@@ -238,7 +243,11 @@ line-height:25px;
     font-weight: 400;
     font-size: 25px;
     letter-spacing: 2px;
-    
+    transition: all .5s ease;
+}
+.price a:hover{
+    color: #090909;
+    background-color: #f8f9fa;
 }
 .btn-join{
     margin-top: 30px;
@@ -275,7 +284,11 @@ line-height:25px;
     font-weight: 500;
     font-size: 26px;
     letter-spacing: 2px;
-    
+    transition: all .5s ease;
+}
+.price2 a:hover{
+    color: #fcf5f5;
+    background-color: #121111;
 }
 .btn-join2{
     margin-top: 30px;
