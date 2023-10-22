@@ -120,7 +120,7 @@ color: #ee1515 !important;
     width: 50%;
     height: 600px;
     border-radius: 3px;
-    line-height: 50px;
+    line-height: 35px;
     position: relative;
 }
 .text-about p{
@@ -473,7 +473,7 @@ iframe{
 
 .form-card{
     width: 40%;
-    height: 430px;
+    height: 480px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 1px 10px 2px;
@@ -506,19 +506,14 @@ input{
     padding: 10px;
     background-color: rgb(204, 210, 210);
 }
-.form-group-btn a { 
-    background-color: rgb(204, 210, 210);
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(27, 26, 26);
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-}
+
 .form-group-btn{
     margin-top: 15px;
+    font-family: 'Koulen', sans-serif;
+    font-size: 25px;
+    padding: 0 0;
 }
-.form-group-btn a:hover{
+.form-group-btn:hover{
     background-color: rgb(76, 83, 83);
 }
 .img-contact img{
@@ -531,6 +526,13 @@ height: 450px ;
     justify-content:space-around;
     align-items: center;
 }
+
+span {
+	display: block;
+    color: red;
+	font-size: 12px;
+	letter-spacing: 1px;
+} 
 
 /* Programs */
 
@@ -575,12 +577,20 @@ height: 450px ;
         z-index: 1; 
         width: 220px;
         height: 120vh;
+        
     } 
     .navbar li{
         width: 200px;
         height: 100px;
         font-size: 4rem;
         text-align: center;
+        
+    }
+    .navbar li a{
+        color: rgb(226, 232, 232);
+        font-family: karantina;
+        letter-spacing: 1px;
+        font-size: 33px;
     }
     .colse{
         display: block;
@@ -622,11 +632,11 @@ height: 450px ;
     width: 50%;
     height: 250px;
     border-radius: 3px;
-    line-height: 25px;
+    line-height: 20px;
     
     }
     .text-about p{
-    font-size: 10px;
+    font-size: 7px;
     padding: 0 20px;
     
     }

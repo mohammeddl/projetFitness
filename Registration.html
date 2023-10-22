@@ -20,14 +20,14 @@
 <body>
     <header>
         <nav>
-            
+
             <div class="bar-menu">
                 <img src="img/logo.png" alt="img" class="logo">
                 <div class="burger-menu">
                     <div class="bar"></div>
                     <div class="bar"></div>
                     <div class="bar"></div>
-                </div>                
+                </div>
             </div>
             <ul class="navbar">
                 <li><a href="index.html">Home</a></li>
@@ -43,13 +43,22 @@
             <div class="form-text">
                 <h3>RESERVE MY CARD</h3>
                 <p>Provide your contact details, we will call you back!</p>
-            <form>
-                <div class="form-group"><input type="name" placeholder="Full name"></div>
-                <div class="form-group"><input type="email" placeholder="Email"></div>
-                <div class="form-group"><input type="cin" placeholder="CIN"></div>
-                <div class="form-group"><input type="phone" placeholder="Phone"></div>
-                <div class="form-group-btn"><a href="">reserver</a></div>
-            </form></div>
+                <form id="Contact">
+                    <div class="form-group"><input id="name" placeholder="Full name">
+                        <span id="nameError"></span>
+                    </div>
+                    <div class="form-group"><input id="email" placeholder="Email">
+                        <span id="emailError"></span>
+                    </div>
+                    <div class="form-group"><input id="cin" placeholder="CIN">
+                        <span id="cinError"></span>
+                    </div>
+                    <div class="form-group"><input id="phone" placeholder="Phone">
+                        <span id="phoneError"></span>
+                    </div>
+                    <input type="submit" class="form-group-btn" id="btnSubmit" value="Submit">
+                </form>
+            </div>
         </div>
         <div class="img-contact"><img src="img/contact.png" alt="img"></div>
     </section>
@@ -80,9 +89,12 @@
                 <div class="list">
                     <h4>Connect</h4>
                     <div class="social">
-                        <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><i class="fa-brands fa-facebook" style="color: #e9e9ed;"></i></a>
-                        <a href="https://www.instagram.com/"  target="_blank"><i class="fa-brands fa-instagram" style="color: #f4f5f5;"></i></a>
-                        <a href="https://www.whatsapp.com/?lang=fr_FR" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #f2f2f3;"></i></a>
+                        <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"><i
+                                class="fa-brands fa-facebook" style="color: #e9e9ed;"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
+                                style="color: #f4f5f5;"></i></a>
+                        <a href="https://www.whatsapp.com/?lang=fr_FR" target="_blank"><i class="fa-brands fa-whatsapp"
+                                style="color: #f2f2f3;"></i></a>
                     </div>
                 </div>
             </div>
