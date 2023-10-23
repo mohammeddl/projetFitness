@@ -504,6 +504,7 @@ justify-content: center;
 	font-size: 15px;
 	transition: .3s;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .list ul li a:hover{
 	color: rgb(118, 122, 122);
@@ -576,7 +577,7 @@ input{
     background-color: rgb(76, 83, 83);
 }
 .img-contact img{
-width: 800px;
+width: 700px;
 height: 450px ;
 }
 .contact-position{
@@ -596,12 +597,15 @@ span {
 /* Programs */
 
 .proframs-img{
-    height: 500px;
+    height: 590px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
+.proframs-img img{
+    height: 300px;
+    width: 300px;
+}
 
 .proframs-img div h5{
     background-color: rgb(15, 15, 15);
@@ -620,6 +624,9 @@ span {
     font-weight: 400;
 }
 
+.card-price-position{
+    margin-bottom: 50px;
+}
 
 @media (max-width: 767px){
     .logo{

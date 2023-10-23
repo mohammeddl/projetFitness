@@ -20,7 +20,6 @@ const questions = document.querySelectorAll('.faq-question');
         
     
     // registration
-    
 document.getElementById("Contact").addEventListener("submit", function (event) {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -33,6 +32,8 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
     if (name.trim() === "") {
         nameError.innerHTML = "Please enter your full name.<br>";
         isValid = false;
+    }else{
+        nameError.innerHTML="" ;
     }
 
     // Email
@@ -43,6 +44,8 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
     } else if (!validateEmail(email)) {
         emailError.innerHTML = "Please enter a valid email address.<br>";
         isValid = false;
+    }else{
+        emailError.innerHTML="" ;
     }
     
     // CIN
@@ -50,6 +53,11 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
     if (cin.trim() === "") {
         cinError.innerHTML = "Please enter your CIN.<br>";
         isValid = false;
+    }else if (!validateCin(cin)){
+        cinError.innerHTML = "Please enter a valid CIN.<br>";
+        isValid = false;
+    }else{
+        cinError.innerHTML = "";
     }
 
     // Phone
@@ -58,8 +66,10 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
         phoneError.innerHTML = "Please enter your phone number.<br>";
         isValid = false;
     } else if (!validatePhone(phone)){
-        phoneError.innerHTML += "Please enter incorrect phone number.<br>";
+        phoneError.innerHTML = "Please enter incorrect phone number.<br>";
         isValid = false;
+    }else{
+        phoneError.innerHTML = "";
     }
 
     if (!isValid) {
@@ -76,3 +86,7 @@ function validatePhone(phone){
     return regex.test(phone);
 }
 
+function validateCin(cin){
+    var regex = /^[a-zA-Z]{2}\d{6}$/;
+    return regex.test(cin);
+}
