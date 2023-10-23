@@ -806,7 +806,7 @@ span {
         justify-content: space-evenly;
     }
     .list{
-        width: 20%;
+        width: 35%;
         padding: 0px;
         margin-top: 10px;
     }
@@ -838,13 +838,13 @@ span {
         display: none;
     }
     .proframs-img{
-        height: 1000px;
+        height: 800px;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
     .proframs-img img{
-        width: 150px;
+        width: auto;
         height: 200px;
     }
     .proframs-img div h4{
@@ -930,16 +930,18 @@ span {
     /* Registration */
 
     .contact-position{
-        height: 140vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .form-card{
-        width: 50%;
+        width: 80%;
+        margin-top: 20px;
     }
     .img-contact img{
-        width: 750px;
+        width: 100%;
+        height: 100%;
         }
     input{
         width: 250px;
