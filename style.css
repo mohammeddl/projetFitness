@@ -71,7 +71,6 @@ nav{
     color: rgb(224, 12, 12);
     font-family: karantina;
     font-weight: 400;
-    
 }
 .A{
     color: azure;
@@ -93,6 +92,9 @@ nav{
 }
 .colorGA{
 color: #ee1515 !important;
+}
+.colorHome{
+    color: #ee1515 !important;
 }
 .navRe{
     cursor:pointer;
@@ -157,23 +159,24 @@ color: #ee1515 !important;
 }
 .img-about{
     height: 600px;
-    width: 740px;
+    width: 49%;
     border-radius: 3px;
 }
 .text-about{
     background-color: rgb(23, 22, 22);
-    width: 50%;
+    width: 49%;
     height: 600px;
     border-radius: 3px;
     line-height: 35px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .text-about p{
 color: aliceblue;
 font-family: Arial, Helvetica, sans-serif;
 font-size: clamp(16px,4vw,25px);
 padding: 0 50px;
-position: absolute;
 }
 .text-about h2{
     color: aliceblue;
@@ -460,12 +463,15 @@ img{
     margin: auto;
 }
 .btn-regi{
-    background-color: rgb(194, 192, 191);
+    background-color: rgb(20, 20, 21);
+    color: azure;
+    padding: 0 20px;
     text-decoration: none;
-    padding: 15px;
     border-radius: 10px;
-    color: rgb(21, 22, 22);
-    font-size: 25px;
+    font-family: 'Koulen', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 1px;
 }
 .btn-re{
     margin-top: 20px;
@@ -595,7 +601,16 @@ span {
     align-items: center;
     justify-content: space-between;
 }
+
 .proframs-img div h3{
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    color: azure;
+    font-size: 80px;
+    font-family: karantina;
+    font-weight: 400;
+}
+.proframs-img div h4{
     background-color: rgb(15, 15, 15);
     text-align: center;
     color: azure;
@@ -632,9 +647,6 @@ span {
         height: 120vh;
         
     } 
-    .navRe{
-        
-    }
     .navbar li{
         width: 200px;
         height: 100px;
@@ -825,7 +837,19 @@ span {
         align-items: center;
         flex-wrap: wrap;
     }
-    
+    .proframs-img img{
+        width: 190px;
+        height: 300px;
+    }
+    .proframs-img div h4{
+        background-color: rgb(15, 15, 15);
+        text-align: center;
+        color: azure;
+        font-size: 50px;
+        padding: 15px 0;
+        font-family: karantina;
+        font-weight: 400;
+    }
     .card-price-position{
         display: flex;
         flex-direction: row;
