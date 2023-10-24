@@ -689,6 +689,15 @@ span {
         padding: 7px 10px;
         font-size: 18px;
     }
+    .colorPro{
+        color: #f4f2f2 !important;
+    }
+    .colorGA{
+    color: #f4f2f2 !important;
+    }
+    .colorHome{
+        color: #f4f2f2 !important;
+    }
     .imgback{
         height: 75vh;
         background-position: center;
