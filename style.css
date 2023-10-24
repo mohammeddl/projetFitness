@@ -881,13 +881,13 @@ span {
     .imgs{
         width: 100%;
         height: fit-content;
-        column-count: 4;
+        column-count: 2;
         gap: 10px;
         margin: 20px 0;
-        padding: 10px;
+        padding: 30px;
     }
     .imgHover:hover {
-        transform: scale(1.4); 
+        transform: scale(1.1); 
     }
     
     /* Registration */
