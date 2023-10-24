@@ -872,11 +872,22 @@ span {
     
     .btn-regi{
         background-color: rgb(18, 17, 17);
-        padding: 15px;
+        padding: 10px;
         border-radius: 10px;
         color: rgb(233, 237, 237);
-        font-size: 20px;
+        font-size: 10px;
         font-family: karantina;
+    }
+    .imgs{
+        width: 100%;
+        height: fit-content;
+        column-count: 4;
+        gap: 10px;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    img:hover {
+        transform: scale(1.4); 
     }
     
     /* Registration */
