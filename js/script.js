@@ -32,6 +32,9 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
     if (name.trim() === "") {
         nameError.innerHTML = "Please enter your full name.<br>";
         isValid = false;
+    }else if(!validateFullName(name)) {
+        nameError.innerHTML = "Invalid full name.<br>";
+        isValid = false;
     }else{
         nameError.innerHTML="" ;
     }
@@ -57,7 +60,7 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
         cinError.innerHTML = "Please enter a valid CIN.<br>";
         isValid = false;
     }else{
-        cinError.innerHTML = "";
+        cinError.innerHTML = "Invalid full name";
     }
 
     // Phone
@@ -90,3 +93,10 @@ function validateCin(cin){
     var regex = /^[a-zA-Z]{2}\d{6}$/;
     return regex.test(cin);
 }
+function validateFullName(name) {
+    var regex = /^[A-Za-z\s]+$/;
+    return regex.test(name);
+}
+  
+
+  
