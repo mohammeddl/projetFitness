@@ -1,5 +1,5 @@
 const questions = document.querySelectorAll('.faq-question');
-        questions.forEach(question => {
+        questions.forEach( question=> {
             question.addEventListener('click', () => {
                 const answer = question.nextElementSibling;
                 if (answer.style.display === 'block') {
